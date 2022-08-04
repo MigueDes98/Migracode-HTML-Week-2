@@ -44,7 +44,18 @@ body {
 }
 
 .banner-unicef {
-    border: 1px solid aqua;
+    display: flex;
+        flex-direction: row;
+        background-color: #f5f5ff;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;;
+}
+
+.unicef {
+    text-decoration: none;
+    margin-right: 1em;
+    
 }
 
 .products-highlights {

@@ -10,14 +10,15 @@ body {
     background-color: #272729;
     align-items: center;
     justify-content: space-evenly;
-    padding: 0% 10%;
+    padding: 0% 13%;
+    height: 6%;
 }
 
 .navbar-link {
     color: #cecece;
     padding: 0px 8px;
     cursor: pointer;
-    font-size: 10;
+    font-size: 11px;
     line-height: 1.23536;
     font-weight: 400;
     letter-spacing: -.022em;
@@ -32,6 +33,7 @@ body {
     padding: 0px 10px;
     cursor: pointer;
     color: #cecece;
+    width: 0.9vw;
 }
 .navbar-button:hover¨{
     color: #ffffff;
@@ -45,11 +47,16 @@ body {
 
 .banner-unicef {
     display: flex;
-        flex-direction: row;
-        background-color: #f5f5ff;
-        align-items: center;
-        justify-content: center;
-        padding: 20px 0;;
+    flex-direction: row;
+    background-color: #f5f5ff;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;;
+}
+.link {
+    color: #06c;
+    font-size: 16px;
+    text-decoration: none;
 }
 
 .unicef {
@@ -58,10 +65,53 @@ body {
     
 }
 
-.products-highlights {
-    border: 1px solid yellowgreen;
+
+
+.macbook-air {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("Images/Mackbook.png");
+    }
+
+.Logoimg {width: 15em;
 }
 
 footer {
-    border: 1px solid red;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #706c6c;
+    background-color: #f5f5ff;
+    margin-top: 1.5em;
+    padding: 0% 20%;
+}
+.footerlist {
+    padding: 0% 2%;
+}
+table {font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #706c6c;
+}
+.copyright { display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.column { display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.bottom {display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.bottomP {padding-right: 3%;
+
 }

@@ -40,10 +40,11 @@ body {
 }
 .navbar-search-button{
     padding: 0px 3px;
-        cursor: pointer;
-        color: #cecece;
-        width: 1.4em;
+    cursor: pointer;
+    color: #cecece;
+    width: 1.4em;
 }
+
 
 .banner-unicef {
     display: flex;
@@ -62,9 +63,7 @@ body {
 .unicef {
     text-decoration: none;
     margin-right: 1em;
-    
 }
-
 
 
 .macbook-air {
@@ -85,20 +84,59 @@ body {
         margin: 0.5em;
         padding: 0%;
     }
-.macbook-links { display: flex;
+
+.macbook-links {
+    display: flex;
     flex-direction: row;
     gap: 20px;
     align-items: center;
 }
+
 .macbookimg {
     width: 100%;
 
 }
-.Logoimg {width: 15em;
+.Logoimg {
+    width: 15em;
     margin: 0.5em;
 }
 
+.iPhone {
+    background-image: url("../Images/iPhone.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 180%;
+    height: 38vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+}
 
+.iPhoneH {
+    font-size: xx-large;
+    line-height: 0.1em;
+    margin: 0.1em;
+    padding: 0%;
+}
+
+.iPhoneH2 {
+    font-size: x-large;
+    line-height: 0.5%;
+    margin-top: 0.1em;
+}
+
+.iPhone-links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.iPhone-text {
+    padding-bottom: 23%;
+}
 
 footer {
     font-size: 12px;
@@ -114,29 +152,20 @@ footer {
 .footerlist {
     padding: 0% 2%;
 }
-table {font-size: 12px;
-    line-height: 1.33337;
-    font-weight: 400;
-    letter-spacing: -.01em;
-    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-    color: #706c6c;
-}
-.copyright { display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-.column { display: flex;
+
+.column { 
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
 
 }
+
 .column2 {
     display: flex;
     flex-direction: column;
 }
    
-
 .column a {
     padding: 4px 0px;
     text-decoration: none;
@@ -162,13 +191,47 @@ table {font-size: 12px;
     display: flex;
     flex-direction: column;
 }
-.bottom {display: flex;
+
+.final { 
+    line-height: 0.5%;
+    padding-top: 5%;
+    padding-bottom: 4%;
+}
+
+.bottom {
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    margin-top: 0.8em;
 }
-.bottomP {padding-right: 3%;
 
+.bottomP {
+    padding-right: 3%;
+    color: #424245;
+    text-decoration: none;
 }
+
+.bottomP:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.3em;
+}
+
+.Spain {
+    color: #706c6c;
+    text-decoration: none;
+    padding-top: 1em;
+}
+
+.Spain:hover {
+    text-decoration: underline;
+}
+
 .link2 {
     color: #06c;
     text-decoration: none;

@@ -68,15 +68,37 @@ body {
 
 
 .macbook-air {
+    background-image: url("../Images/MacBook.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 35vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url("Images/Mackbook.png");
-    }
-
-.Logoimg {width: 15em;
+    padding-right: 30%;
 }
+
+.macbook {
+        font-size: xx-large;
+        line-height: 0.5%;
+        margin: 0.5em;
+        padding: 0%;
+    }
+.macbook-links { display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+.macbookimg {
+    width: 100%;
+
+}
+.Logoimg {width: 15em;
+    margin: 0.5em;
+}
+
+
 
 footer {
     font-size: 12px;
@@ -104,9 +126,41 @@ table {font-size: 12px;
     justify-content: space-between;
 }
 .column { display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
+    justify-content: space-between;
 
+}
+.column2 {
+    display: flex;
+    flex-direction: column;
+}
+   
+
+.column a {
+    padding: 4px 0px;
+    text-decoration: none;
+    color: #706c6c;
+    }
+
+.SerCu {
+    display: flex;
+    flex-direction: column;
+}
+
+.EmEdSa {
+    display: flex;
+    flex-direction: column;
+}
+
+.VaAc {
+    display: flex;
+    flex-direction: column;
+}
+
+.column .final {
+    display: flex;
+    flex-direction: column;
 }
 .bottom {display: flex;
     flex-direction: row;
@@ -114,4 +168,8 @@ table {font-size: 12px;
 }
 .bottomP {padding-right: 3%;
 
+}
+.link2 {
+    color: #06c;
+    text-decoration: none;
 }

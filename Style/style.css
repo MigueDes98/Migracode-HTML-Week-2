@@ -80,8 +80,8 @@ body {
 
 .macbook {
         font-size: xx-large;
-        line-height: 0.5%;
-        margin: 0.5em;
+        line-height: 0.2%;
+        margin: 0em;
         padding: 0%;
     }
 
@@ -98,7 +98,7 @@ body {
 }
 .Logoimg {
     width: 15em;
-    margin: 0.5em;
+    margin: 0em;
 }
 
 .iPhone {
@@ -136,6 +136,40 @@ body {
 
 .iPhone-text {
     padding-bottom: 23%;
+    text-align: center;
+}
+
+.Superpotencia {
+    background-image: url("../Images/Superpotencia.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.SuperText {
+    padding-bottom: 25%;
+    text-align: center;
+}
+
+.SuperText-1 {
+    font-size: xx-large;
+    line-height: 0.8em;
+    margin: 0.2em;
+    padding: 0%;
+}
+
+.SuperText-2 {
+    font-size: larger;
+    line-height: 0.5%;
+    margin-top: 0.2em;
+}
+
+#Sup {
+    color: rgb(201, 69, 91);
 }
 
 footer {

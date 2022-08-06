@@ -76,6 +76,7 @@ body {
     align-items: center;
     justify-content: center;
     padding-right: 30%;
+    text-align: center;
 }
 
 .macbook {
@@ -90,12 +91,10 @@ body {
     flex-direction: row;
     gap: 20px;
     align-items: center;
+    font-size: large;
+    padding-top: 0.5em;
 }
 
-.macbookimg {
-    width: 100%;
-
-}
 .Logoimg {
     width: 15em;
     margin: 0em;
@@ -112,6 +111,11 @@ body {
     align-items: center;
     justify-content: center;
     margin: 1%;
+}
+
+.iPhone-text {
+    padding-bottom: 23%;
+    text-align: center;
 }
 
 .iPhoneH {
@@ -132,11 +136,7 @@ body {
     flex-direction: row;
     gap: 20px;
     align-items: center;
-}
-
-.iPhone-text {
-    padding-bottom: 23%;
-    text-align: center;
+    font-size: large;
 }
 
 .Superpotencia {
@@ -168,8 +168,98 @@ body {
     margin-top: 0.2em;
 }
 
+.Super-link {
+    font-size: large;
+}
+
 #Sup {
-    color: rgb(201, 69, 91);
+    color: rgb(202, 73, 97);
+}
+
+.Mac-Phone {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 0.8em;
+}
+
+.iPhone13 {
+    background-image: url("../Images/iPhone13.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.iPhone13-Text {
+    padding-bottom: 50%;
+    text-align: center;
+    line-height: 0.2em;
+}
+
+.iPhone13-Text-1 {
+    font-size: xx-large;
+    line-height: 0.1em;
+}
+
+.iPhone13-Text-2 {
+    font-size: larger;
+    line-height: 0.1em;
+    padding-bottom: 3%;
+}
+
+.iPhone13-links {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+font-size: large;
+gap: 20px;
+}
+
+.MacbookPro {
+    background-image: url("../Images/McBook.jpg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    }
+
+.MacbookPro-Text {
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    padding-bottom: 11.3em;
+    text-align: 0.1em;
+}
+
+.MacbookPro-Text-1 {
+    font-size: xx-large;
+    line-height: 0.1em;
+    }
+.MacbookPro-Img {
+    align-content: center;
+    position: relative;
+    bottom: 15%;
+}
+
+.MacbookPro-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    gap: 20px;
+    line-height: 0.1em;
 }
 
 footer {
@@ -178,7 +268,7 @@ footer {
     font-weight: 400;
     letter-spacing: -.01em;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
-    color: #706c6c;
+    color: #7e7b7b;
     background-color: #f5f5ff;
     margin-top: 1.5em;
     padding: 0% 20%;
@@ -192,7 +282,6 @@ footer {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-
 }
 
 .column2 {

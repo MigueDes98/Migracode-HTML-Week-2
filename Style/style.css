@@ -38,6 +38,7 @@ body {
 .navbar-button:hover¨{
     color: #ffffff;
 }
+
 .navbar-search-button{
     padding: 0px 3px;
     cursor: pointer;
@@ -54,6 +55,11 @@ body {
     justify-content: center;
     padding: 20px 0;;
 }
+.linkUnicef {
+    color: #06c;
+    font-size: 16px;
+    text-decoration: none;
+}
 .link {
     color: #06c;
     font-size: 16px;
@@ -65,6 +71,10 @@ body {
     margin-right: 1em;
 }
 
+.Products-Highlight {
+    display: flex;
+    flex-direction: column;
+}
 
 .macbook-air {
     background-image: url("../Images/MacBook.png");
@@ -143,7 +153,7 @@ body {
     background-image: url("../Images/Superpotencia.jpg");
     background-repeat: no-repeat;
     background-position: 50%;
-    height: 40vw;
+    height: 38vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -188,7 +198,7 @@ body {
     background-image: url("../Images/iPhone13.jpg");
     background-repeat: no-repeat;
     background-position: 50%;
-    height: 40vw;
+    height: 39vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -226,12 +236,13 @@ gap: 20px;
     background-image: url("../Images/McBook.jpg");
     background-repeat: no-repeat;
     background-position: 50%;
-    height: 40vw;
+    height: 39vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 50%;
+    margin-right: 0.5em;
     }
 
 .MacbookPro-Text {
@@ -262,6 +273,175 @@ gap: 20px;
     line-height: 0.1em;
 }
 
+.Watch-Pad {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 0.8em;
+}
+
+.Watch {
+    background-image: url("../Images/Watch.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 38vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.Watch-text {
+    padding-bottom: 45%;
+    text-align: center;
+    line-height: 0.2em;
+}
+
+.Watch-Text-1 {
+    font-size: larger;
+    line-height: 0.1em;
+    padding-bottom: 3%;
+}
+
+.Watch-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    gap: 20px;
+    line-height: 0.1em;
+}
+
+.iPad {
+    background-image: url("../Images/iPad.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 38vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-right: 0.5em;
+}
+
+.iPad-Text {
+    padding-bottom: 45%;
+    text-align: center;
+    line-height: 0.2em;
+}
+
+.iPad-Text-1 {
+    font-size: larger;
+    line-height: 0.1em;
+    padding-bottom: 3%;
+    color: white;
+}
+
+.iPad-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    gap: 20px;
+    line-height: 0.1em;
+}
+
+.Fit-TV {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 0.8em;
+}
+
+.Fitness {
+    background-image: url("../Images/Fitness.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 39vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.Fitness-Text {
+    padding-bottom: 49%;
+    text-align: center;
+    line-height: 0.1em;
+}
+
+.Fitness-Text-1 {
+    font-size: larger;
+    line-height: 0.1em;
+    padding-bottom: 3%;
+}
+
+.Fitness-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    gap: 20px;
+    line-height: 0em;
+    }
+
+.TV {
+    background-image: url("../Images/AppleTV.jpeg");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 39vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-right: 0.5em;
+}
+
+.TV-Img {
+    margin-bottom: 33%;
+}
+
+.TV-Text {
+    text-align: center;
+    align-content: center;
+    box-sizing: content-box;
+    width: 35%;
+    margin-bottom: 2em;
+}
+
+.TV-Img2 {
+    align-content: center;
+    width: 100%;
+    height: 60%;
+    position: relative;
+    top: 0.8em;
+}
+
+.TV-Text-1 {
+    font-size: larger;
+    color: white;
+}
+
+.TV-link {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    line-height: 1em;
+}
+
+.TV-link:hover {
+    text-decoration: underline;
+}
+
 footer {
     font-size: 12px;
     line-height: 1.33337;
@@ -270,7 +450,7 @@ footer {
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
     color: #7e7b7b;
     background-color: #f5f5ff;
-    margin-top: 1.5em;
+    margin-top: 0.3em;
     padding: 0% 20%;
 }
 .footerlist {
@@ -358,4 +538,157 @@ footer {
 .link2 {
     color: #06c;
     text-decoration: none;
+}
+
+@media(max-width:900px) {
+    body {
+        width: auto;
+        height: auto;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: row;
+        padding: 0 1vw;
+        height: 44px;
+        justify-content: flex-end;
+        gap: 35vw;
+    }
+
+    .navbar-link {
+        display: none;
+    }
+
+    .navbar-search-button {
+        display: none;
+    }
+    .navbar-button {
+        width: 2.5vw;
+    }
+
+    .banner-unicef {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .unicef {
+        width: 6.5em;
+    }
+    .linkUnicef {
+        text-align: center;
+    }
+
+    .macbook-air {
+        background-position: 50%;
+        background-size: 180%;
+        height: 38vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 0%;
+        }   
+
+    .Mac-Phone {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0em;
+        margin: 0%;
+    }
+
+
+    .iPhone13 {
+        height: 90vw;
+        width: 100%;
+        padding-bottom: 8%;
+        margin: 0%;
+    }
+
+    .MacbookPro {
+        height: 87vw;
+        width: 100%;
+        margin: 0%;
+    }
+
+    .Watch-Pad {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0em;
+        margin: 0%;
+    }
+
+    .Watch {
+        height: 90vw;
+        width: 100%;
+        padding-bottom: 8%;
+        margin: 0%;
+    }
+
+   .iPad {
+        height: 87vw;
+        width: 100%;
+        padding-bottom: 8%;
+        margin: 0%;
+    }
+    
+    .Fit-TV {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0em;
+        margin: 0%;
+    }
+
+    .Fitness {
+       height: 90vw;
+       width: 100%;
+       padding-bottom: 8%;
+       margin: 0%;
+    }
+
+    .TV {
+        height: 87vw;
+        width: 100%;
+        padding-bottom: 8%;
+        margin: 0%;
+    }
+
+    .footer {
+        padding: 0% 3%;
+        text-align: left;
+    }
+    hr {
+        display: none;
+    }
+
+    .copyright{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .Spain{
+        padding-bottom: 1.3em;
+    }
+
+    .bottomP {
+        padding: 1.8%;
+        border-right-style: solid;
+        border-right-width: 0.1em;
+        height: 0.1em;
+    }
+    #last {
+        border-right: none;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: row;
+        justify-content:left;
+        flex-wrap: wrap;
+        margin-top: 0.5em;
+    }
 }

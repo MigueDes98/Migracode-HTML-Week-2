@@ -55,11 +55,7 @@ body {
     justify-content: center;
     padding: 20px 0;;
 }
-.linkUnicef {
-    color: #06c;
-    font-size: 16px;
-    text-decoration: none;
-}
+
 .link {
     color: #06c;
     font-size: 16px;
@@ -574,19 +570,81 @@ footer {
     .unicef {
         width: 6.5em;
     }
-    .linkUnicef {
+    #unicefLink {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         text-align: center;
+        margin-right: 33vw;
+        margin-left: 33vw; 
+        margin-top: 1vw;  
     }
 
     .macbook-air {
-        background-position: 50%;
-        background-size: 180%;
-        height: 38vw;
+        background-position: 55%;
+        background-size: 290%;
+        height: 50vw;
+        margin-top: 30vw;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        padding-right: 0%;
+        }   
+
+    .mcbook {
+        text-align: center;
+        padding-bottom: 80vw
+    }
+    
+    .iPhone {
+        background-size: 380vw;
+        height: 90vw;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         justify-content: center;
         padding-right: 0%;
-        }   
+    }
+    
+    .iPhone-text {
+        text-align: center;
+        padding-bottom: 60vw
+    }
+   
+    .Superpotencia {
+        background-size: 380vw;
+        height: 70vw;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 0%;
+        display: flex;
+        flex-wrap: wrap;
+        }
+
+    .SuperText {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 50vw;
+        margin-bottom: 40vw;
+        padding: 0%;
+        }
+    .SuperText {
+        flex-wrap: wrap;
+    }
+    .SuperText-1 {
+        font-size:large;
+        margin-right: 30vw;
+        margin-left: 30vw;
+        line-height: 5vw;
+    }
+
+    .SuperText-2 {
+        font-size: medium;
+    }
 
     .Mac-Phone {
         display: flex;
